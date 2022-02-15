@@ -14,6 +14,10 @@
 
   <style>
     .color-purple {
+      color: #7952b3;
+    }
+
+    .back-purple {
       background-color: #7952b3;
     }
 
@@ -29,6 +33,16 @@
       border-color: #5e408b;
       color: #5e408b;
     }
+
+    .active {
+      background-color: #7952b3;
+      border-radius: 50px;
+      color: #fff;
+    }
+
+    .active:hover {
+      color: #fff;
+    }
   </style>
 
   <body style="font-family: Montserrat, sans-serif;">
@@ -36,16 +50,41 @@
       <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom bd-subnavbar ">
         <div class="container">
           <div class="d-flex">
-            <a href="#" class="d-flex align-items-center me-md-auto text-dark text-decoration-none"><svg
-                xmlns="http://www.w3.org/2000/svg" width="50" height="42" class="d-block my-1" viewBox="0 0 118 94"
-                role="img">
-                <title>Bootstrap</title>
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                  d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z"
-                  fill="#7952b3"></path>
+            <a href="#" class="d-flex align-items-center me-md-auto text-dark text-decoration-none"><svg width="60px"
+                height="100%" viewBox="0 0 512 408" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/"
+                style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+                <path
+                  d="M56.481,53.32C55.515,25.58 77.128,0 106.342,0L405.695,0C434.909,0 456.522,25.58 455.556,53.32C454.628,79.967 455.833,114.485 464.52,142.63C473.235,170.862 487.931,188.707 512,191L512,217C487.931,219.293 473.235,237.138 464.52,265.37C455.833,293.515 454.628,328.033 455.556,354.681C456.522,382.42 434.909,408 405.695,408L106.342,408C77.128,408 55.515,382.42 56.482,354.681C57.409,328.033 56.204,293.515 47.516,265.37C38.802,237.138 24.07,219.293 0,217L0,191C24.069,188.707 38.802,170.862 47.516,142.63C56.204,114.485 57.409,79.967 56.481,53.32Z"
+                  style="fill:url(#_Linear1);fill-rule:nonzero;" />
+                <g transform="matrix(0.434781,0,0,0.244564,-13.9989,-65.9989)">
+                  <g transform="matrix(1.72139,0,0,3.06025,-129718,-677765)">
+                    <path
+                      d="M75583.3,221835C75583.3,221835 75752,222003 75752,222003L75772,221983L75623.3,221835L75772,221686L75752,221666L75583.3,221835Z"
+                      style="fill:url(#_Linear2);" />
+                  </g>
+                  <g transform="matrix(1.72139,0,0,3.06025,-129718,-677765)">
+                    <path
+                      d="M75712.3,221821C75704.5,221821 75698.2,221827 75698.2,221835C75698.2,221835 75698.2,221835 75698.2,221835C75698.2,221843 75704.5,221849 75712.3,221849C75734.3,221849 75774.1,221849 75774.1,221849C75808.9,221849 75837,221878 75837,221912C75837,221947 75808.9,221975 75774.1,221975L75597.4,221975L75597.4,221849L75616.5,221849L75616.5,221821L75597.4,221821L75597.4,221694L75774.1,221694C75808.9,221694 75837,221723 75837,221757C75837,221764 75836,221770 75834,221777C75831.9,221783 75834.7,221790 75840.7,221793C75840.7,221793 75840.7,221793 75840.7,221793C75844.4,221795 75848.8,221795 75852.7,221794C75856.7,221792 75859.7,221789 75861,221785C75863.8,221776 75865.3,221767 75865.3,221757C75865.3,221707 75824.5,221666 75774.1,221666C75774.1,221666 75653.6,221666 75597.4,221666L75597.4,221666L75597.4,221666C75581.8,221666 75569.2,221679 75569.2,221694L75569.2,221975C75569.2,221991 75581.8,222003 75597.4,222003L75774.1,222003C75824.5,222003 75865.3,221963 75865.3,221912C75865.3,221862 75824.5,221821 75774.1,221821C75774.1,221821 75734.3,221821 75712.3,221821Z"
+                      style="fill:white;" />
+                  </g>
+                </g>
+                <defs>
+                  <linearGradient id="_Linear1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse"
+                    gradientTransform="matrix(447.401,355.147,-355.147,447.401,76.079,10.798)">
+                    <stop offset="0" style="stop-color:rgb(144,19,254);stop-opacity:1" />
+                    <stop offset="1" style="stop-color:rgb(102,16,242);stop-opacity:1" />
+                  </linearGradient>
+                  <linearGradient id="_Linear2" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse"
+                    gradientTransform="matrix(258.353,3.49979e-11,-3.49979e-11,258.353,75583.3,221835)">
+                    <stop offset="0" style="stop-color:white;stop-opacity:1" />
+                    <stop offset="0.54" style="stop-color:rgb(212,212,214);stop-opacity:1" />
+                    <stop offset="1" style="stop-color:rgb(60,58,71);stop-opacity:1" />
+                  </linearGradient>
+                </defs>
               </svg></a>
             <ul class="nav align-items-center">
-              <li><a href="./about.html" class="nav-link active text-dark px-50">À propos</a></li>
+              <li><a href="./about.html" class="nav-link px-50 active">À propos</a></li>
               <li><a href="./blog.html" class="nav-link text-dark px-50">Blog</a></li>
             </ul>
           </div>
@@ -56,17 +95,19 @@
     <div class="container">
 
 
-      <div class="px-4 pt-5 my-5 text-center">
+      <div class="px-4 pt-5 my-5 text-lg-start">
         <h1 class="display-4 fw-bold">Bootstrap 5.0</h1>
-        <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4 text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        <div class="mx-auto my-5 ">
+          <p class="lead mb-4 text-lg-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor
             incididunt ut
             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
             aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
             dolore eu
             fugiat nulla pariatur.</p>
           <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-            <a href="https://github.com/kbld" type="button" class="btn btn-primary btn-lg px-3 py-1 me-sm-5 bg-black border-0 rounded-pill"><i
+            <a href="https://github.com/kbld" target="_blank" type="button"
+              class="btn btn-primary btn-lg px-3 py-1 me-sm-5 bg-black border-0 rounded-pill"><i
                 class="bi bi-github fa-2x"></i></i></a>
             <a type="button" class="btn btn-primary btn-lg px-3 py-1 me-sm-5 bg-primary border-0 rounded-pill"><i
                 class="bi bi-facebook fa-2x"></i></i></a>
@@ -79,49 +120,76 @@
 
 
       <img src="https://blog.getbootstrap.com/assets/img/2020/06/v5-new-logo.png"
-        class="img-fluid rounded mx-auto d-block" alt="Responsive image">
+        class="img-fluid rounded mx-auto h2 m-5 d-block" alt="Responsive image">
 
 
-      <h2 class="h2 my-md-5">Mes objectifs pour mes futurs sites :</h2>
-      <p>Je souhaite aller plus en profondeur dans le Javascript en utilisant le plus possible le moin de frameworks
+      <h2 class="h2 pt-5 my-5 fw-bold color-purple ">Mes objectifs pour mes futurs sites :</h2>
+      <p class="my-5 pb-5 lead">Je souhaite aller plus en profondeur dans le Javascript en utilisant le plus possible le moins de frameworks
         pour alléger les sites et comprendre comment les "animations" fonctionnent Je souhaite également créez des sites
-        storytelling avec des animations qui fonctionne grâce au scroll de l'utilisateur.
-        Je souhaite pour la création de mes futurs sites qu'il soient plus accesibles pour le plus d'utilisateurs pour que tout le
-        monde ai la même expérience utilisateur et enfin je souhaite créer des sites où l'information recherché est
-        instantanément disponible en pas parcourir des dizaines de pages pour au final ne pas trouvé l'information que l'on recherche.
+        storytelling avec des animations qui fonctionnent grâce au scroll de l'utilisateur. Je souhaite pour la création
+        de mes futurs sites qui soient plus accessibles pour le plus d'utilisateurs pour que tout le monde ait la même
+        expérience utilisateur et enfin je souhaite créer des sites où l'information recherchée est
+        instantanément disponible en pas parcourir des dizaines de pages pour au final ne pas trouver l'information que
+        l'on recherche.
       </p>
 
-      <h2 class="h2 my-5">Mes motivations pour la création de futurs sites :</h2>
-      <p>Mes motivations pour réaliser ces futurs sites sont de créer desz nouveaux sites avec des nouveaux design plus accesible et rendre des sites laisser à l'abandon plus beaux et plus fonctionnels</p>
+      <h2 class="h2 pt-5 my-5 fw-bold color-purple">Mes motivations pour la création de futurs sites :</h2>
+      <p class="my-5 pb-5 lead">Mes motivations pour réaliser ses futurs sites sont de créer des nouveaux sites avec des
+        nouveaux design plus accessible et rendre des sites laisser à l'abandon plus beaux et plus fonctionnels</p>
 
 
     </div>
 
-    <footer class="w-100 py-4 flex-shrink-0 color-purple">
+    <footer class="w-100 py-4 flex-shrink-0 back-purple">
       <div class="container py-4">
-          <div class="row gy-4 gx-5">
-              <div class="col-lg-4 col-md-6">
-                <a href="#" class="d-flex align-items-center me-md-auto text-dark text-decoration-none"><svg
-                  xmlns="http://www.w3.org/2000/svg" width="50" height="42" class="d-block my-1" viewBox="0 0 118 94"
-                  role="img">
-                  <title>Bootstrap</title>
-                  <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z"
-                    fill="#fff"></path>
-                </svg></a>
-                  <h5 class="h1 text-white">Bootstrap</h5>
-                  <p class="small text-white mb-0"> Copyrights. All rights reserved.</p>
-              </div>
-              <div class="col-lg-2 col-md-6">
-                  <h5 class="text-white mb-3">Liens</h5>
-                  <ul class="list-unstyled text-white">
-                      <li><a class="nav-link text-white" href="#">À propos</a></li>
-                      <li><a class="nav-link text-white" href="#">Blog</a></li>
-                  </ul>
-              </div>
+        <div class="row gy-4 gx-5">
+          <div class="col-lg-4 col-md-6">
+            <a href="#" class="d-flex align-items-center me-md-auto text-dark text-decoration-none"><svg width="60px"
+                height="100%" viewBox="0 0 512 408" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/"
+                style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+                <path
+                  d="M56.481,53.32C55.515,25.58 77.128,0 106.342,0L405.695,0C434.909,0 456.522,25.58 455.556,53.32C454.628,79.967 455.833,114.485 464.52,142.63C473.235,170.862 487.931,188.707 512,191L512,217C487.931,219.293 473.235,237.138 464.52,265.37C455.833,293.515 454.628,328.033 455.556,354.681C456.522,382.42 434.909,408 405.695,408L106.342,408C77.128,408 55.515,382.42 56.482,354.681C57.409,328.033 56.204,293.515 47.516,265.37C38.802,237.138 24.07,219.293 0,217L0,191C24.069,188.707 38.802,170.862 47.516,142.63C56.204,114.485 57.409,79.967 56.481,53.32Z"
+                  style="fill:#fff;fill-rule:nonzero;" />
+                <g transform="matrix(0.434781,0,0,0.244564,-13.9989,-65.9989)">
+                  <g transform="matrix(1.72139,0,0,3.06025,-129718,-677765)">
+                    <path
+                      d="M75583.3,221835C75583.3,221835 75752,222003 75752,222003L75772,221983L75623.3,221835L75772,221686L75752,221666L75583.3,221835Z"
+                      style="fill:#7952b3;" />
+                  </g>
+                  <g transform="matrix(1.72139,0,0,3.06025,-129718,-677765)">
+                    <path
+                      d="M75712.3,221821C75704.5,221821 75698.2,221827 75698.2,221835C75698.2,221835 75698.2,221835 75698.2,221835C75698.2,221843 75704.5,221849 75712.3,221849C75734.3,221849 75774.1,221849 75774.1,221849C75808.9,221849 75837,221878 75837,221912C75837,221947 75808.9,221975 75774.1,221975L75597.4,221975L75597.4,221849L75616.5,221849L75616.5,221821L75597.4,221821L75597.4,221694L75774.1,221694C75808.9,221694 75837,221723 75837,221757C75837,221764 75836,221770 75834,221777C75831.9,221783 75834.7,221790 75840.7,221793C75840.7,221793 75840.7,221793 75840.7,221793C75844.4,221795 75848.8,221795 75852.7,221794C75856.7,221792 75859.7,221789 75861,221785C75863.8,221776 75865.3,221767 75865.3,221757C75865.3,221707 75824.5,221666 75774.1,221666C75774.1,221666 75653.6,221666 75597.4,221666L75597.4,221666L75597.4,221666C75581.8,221666 75569.2,221679 75569.2,221694L75569.2,221975C75569.2,221991 75581.8,222003 75597.4,222003L75774.1,222003C75824.5,222003 75865.3,221963 75865.3,221912C75865.3,221862 75824.5,221821 75774.1,221821C75774.1,221821 75734.3,221821 75712.3,221821Z"
+                      style="fill:#7952b3;" />
+                  </g>
+                </g>
+                <defs>
+                  <linearGradient id="_Linear1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse"
+                    gradientTransform="matrix(447.401,355.147,-355.147,447.401,76.079,10.798)">
+                    <stop offset="0" style="stop-color:rgb(144,19,254);stop-opacity:1" />
+                    <stop offset="1" style="stop-color:rgb(102,16,242);stop-opacity:1" />
+                  </linearGradient>
+                  <linearGradient id="_Linear2" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse"
+                    gradientTransform="matrix(258.353,3.49979e-11,-3.49979e-11,258.353,75583.3,221835)">
+                    <stop offset="0" style="stop-color:white;stop-opacity:1" />
+                    <stop offset="0.54" style="stop-color:rgb(212,212,214);stop-opacity:1" />
+                    <stop offset="1" style="stop-color:rgb(60,58,71);stop-opacity:1" />
+                  </linearGradient>
+                </defs>
+              </svg></a>
+            <h5 class="h1 text-white">Bootstrap</h5>
+            <p class="small text-white mb-0">© 2022 Killian Blanchard.</p>
           </div>
+          <div class="col-lg-2 col-md-6 nav align-items-center">
+            <h5 class="text-white">Liens</h5>
+            <ul class="nav align-items-center">
+              <li><a href="./about.html" class="nav-link active text-white px-50">À propos</a></li>
+              <li><a href="./blog.html" class="nav-link text-white px-50">Blog</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
-  </footer>
+    </footer>
 
 
     <script src="./assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
