@@ -7,34 +7,181 @@
   <link rel="stylesheet" href="./assets/vendor/bootstrap/css/bootstrap.css">
   <title>About Bootstrap</title>
   <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 </head>
 
+<!-- Style CSS personnalisé-->
+
+<style>
+  .color-purple {
+    color: #7952b3;
+  }
+
+  .back-purple {
+    background-color: #7952b3;
+  }
+
+  .bg-purple {
+    background-color: #7952b3;
+    border-color: #7952b3;
+    border-radius: 50px;
+    padding: 10px 20px;
+  }
+
+  .bg-purple:hover {
+    background-color: transparent;
+    border-color: #5e408b;
+    color: #5e408b;
+  }
+
+  .active {
+    background-color: #7952b3;
+    border-radius: 50px;
+    color: #fff;
+  }
+
+  .active:hover {
+    color: #fff;
+  }
+</style>
+
+<!-- Style CSS personnalisé FIN-->
+
 <body style="font-family: Montserrat, sans-serif;">
-  <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+
+  <!-- NAVBAR -->
+
+  <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom bd-subnavbar ">
     <div class="container">
       <div class="d-flex">
-        <a href="#" class="d-flex align-items-center me-md-auto text-dark text-decoration-none">LOGO</a>
-        <ul class="nav">
-          <li><a href="./about.html" class="nav-link active text-dark px-50 nav-link">About</a></li>
-          <li><a href="./blog.html" class="nav-link text-dark px-50 nav-link">Blog</a></li>
+        <a href="#" class="d-flex align-items-center me-md-auto text-dark text-decoration-none"><svg width="60px"
+            height="100%" viewBox="0 0 512 408" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/"
+            style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+            <path
+              d="M56.481,53.32C55.515,25.58 77.128,0 106.342,0L405.695,0C434.909,0 456.522,25.58 455.556,53.32C454.628,79.967 455.833,114.485 464.52,142.63C473.235,170.862 487.931,188.707 512,191L512,217C487.931,219.293 473.235,237.138 464.52,265.37C455.833,293.515 454.628,328.033 455.556,354.681C456.522,382.42 434.909,408 405.695,408L106.342,408C77.128,408 55.515,382.42 56.482,354.681C57.409,328.033 56.204,293.515 47.516,265.37C38.802,237.138 24.07,219.293 0,217L0,191C24.069,188.707 38.802,170.862 47.516,142.63C56.204,114.485 57.409,79.967 56.481,53.32Z"
+              style="fill:url(#_Linear1);fill-rule:nonzero;" />
+            <g transform="matrix(0.434781,0,0,0.244564,-13.9989,-65.9989)">
+              <g transform="matrix(1.72139,0,0,3.06025,-129718,-677765)">
+                <path
+                  d="M75583.3,221835C75583.3,221835 75752,222003 75752,222003L75772,221983L75623.3,221835L75772,221686L75752,221666L75583.3,221835Z"
+                  style="fill:url(#_Linear2);" />
+              </g>
+              <g transform="matrix(1.72139,0,0,3.06025,-129718,-677765)">
+                <path
+                  d="M75712.3,221821C75704.5,221821 75698.2,221827 75698.2,221835C75698.2,221835 75698.2,221835 75698.2,221835C75698.2,221843 75704.5,221849 75712.3,221849C75734.3,221849 75774.1,221849 75774.1,221849C75808.9,221849 75837,221878 75837,221912C75837,221947 75808.9,221975 75774.1,221975L75597.4,221975L75597.4,221849L75616.5,221849L75616.5,221821L75597.4,221821L75597.4,221694L75774.1,221694C75808.9,221694 75837,221723 75837,221757C75837,221764 75836,221770 75834,221777C75831.9,221783 75834.7,221790 75840.7,221793C75840.7,221793 75840.7,221793 75840.7,221793C75844.4,221795 75848.8,221795 75852.7,221794C75856.7,221792 75859.7,221789 75861,221785C75863.8,221776 75865.3,221767 75865.3,221757C75865.3,221707 75824.5,221666 75774.1,221666C75774.1,221666 75653.6,221666 75597.4,221666L75597.4,221666L75597.4,221666C75581.8,221666 75569.2,221679 75569.2,221694L75569.2,221975C75569.2,221991 75581.8,222003 75597.4,222003L75774.1,222003C75824.5,222003 75865.3,221963 75865.3,221912C75865.3,221862 75824.5,221821 75774.1,221821C75774.1,221821 75734.3,221821 75712.3,221821Z"
+                  style="fill:white;" />
+              </g>
+            </g>
+            <defs>
+              <linearGradient id="_Linear1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse"
+                gradientTransform="matrix(447.401,355.147,-355.147,447.401,76.079,10.798)">
+                <stop offset="0" style="stop-color:rgb(144,19,254);stop-opacity:1" />
+                <stop offset="1" style="stop-color:rgb(102,16,242);stop-opacity:1" />
+              </linearGradient>
+              <linearGradient id="_Linear2" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse"
+                gradientTransform="matrix(258.353,3.49979e-11,-3.49979e-11,258.353,75583.3,221835)">
+                <stop offset="0" style="stop-color:white;stop-opacity:1" />
+                <stop offset="0.54" style="stop-color:rgb(212,212,214);stop-opacity:1" />
+                <stop offset="1" style="stop-color:rgb(60,58,71);stop-opacity:1" />
+              </linearGradient>
+            </defs>
+          </svg></a>
+        <ul class="nav align-items-center">
+          <li><a href="./about.html" class="nav-link px-50 active">À propos</a></li>
+          <li><a href="./blog.html" class="nav-link text-dark px-50">Blog</a></li>
         </ul>
-        </div>
       </div>
+    </div>
     </div>
   </header>
 
-  <div class="px-4 pt-5 my-5 text-center border-bottom">
-    <h1 class="display-4 fw-bold">Centered screenshot</h1>
-    <div class="col-lg-6 mx-auto">
-      <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-        <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Primary button</button>
-        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
+  <!-- NAVBAR FIN -->
+
+  <!-- Article  -->
+  <div class="container">
+    <div class="px-4 pt-5 my-5 text-lg-start">
+      <h1 class="display-4 fw-bold">Bootstrap c'est quoi ?</h1>
+      <div class="mx-auto my-5 ">
+        <p class="lead mb-4 text-lg-start">Bootstrap est une collection d'outils utiles à la création du design (graphisme, animation et interactions avec la page dans le navigateur, etc.) de sites et d'applications web. C'est un ensemble qui contient des codes HTML et CSS, des formulaires, boutons, outils de navigation et autres éléments interactifs, ainsi que des extensions JavaScript en option. C'est l'un des projets les plus populaires sur la plate-forme de gestion de développement GitHub.</p>
       </div>
     </div>
+
+    <img src="https://getbootstrap.com/docs/5.1/assets/img/bootstrap-icons.png"
+      class="img-fluid rounded mx-auto h2 m-5 d-block w-100" alt="Responsive image">
+
+    <h2 class="h2 pt-5 my-5 fw-bold color-purple ">Fonctionnement de Bootstrap :</h2>
+    <p class="my-5 pb-5 lead">La modularité de Bootstrap consiste en une série de feuilles de styles LESS (à partir de la version 4 SASS) qui implémentent différents composants du toolkit17. Une feuille de style principale (bootstrap.less) englobe les feuilles de style des composants. Les développeurs peuvent alors sélectionner les composants dont ils ont besoin en modifiant cette feuille principale. L'utilisation de LESS permet la manipulation de variables, de fonctions, d'opérateurs, sélecteurs17…
+
+      Depuis la version 2, Bootstrap dispose d'une option supplémentaire de « personnalisation ».
+      
+      Le système de grille et le style adaptatif sont standardisés sur une grille de 940 pixels de large, que les développeurs peuvent adapter. Ces définitions sont déclinées en quatre variations qui peuvent être utilisées dans différents formats et supports : téléphones (portrait et paysage), tablette et PC (haute et basse résolution). Ces déclinaisons adaptent automatiquement l'affichage de la page3.
+    </p>
+
   </div>
 
+  <!-- Article FIN -->
+
+  <!-- FOOTER -->
+
+  <footer class="w-100 py-4 flex-shrink-0 back-purple">
+    <div class="container py-4">
+      <div class="row gy-4 gx-5">
+        <div class="col-lg-4 col-md-6">
+          <a href="#" class="d-flex align-items-center me-md-auto text-dark text-decoration-none"><svg width="60px"
+              height="100%" viewBox="0 0 512 408" version="1.1" xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/"
+              style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+              <path
+                d="M56.481,53.32C55.515,25.58 77.128,0 106.342,0L405.695,0C434.909,0 456.522,25.58 455.556,53.32C454.628,79.967 455.833,114.485 464.52,142.63C473.235,170.862 487.931,188.707 512,191L512,217C487.931,219.293 473.235,237.138 464.52,265.37C455.833,293.515 454.628,328.033 455.556,354.681C456.522,382.42 434.909,408 405.695,408L106.342,408C77.128,408 55.515,382.42 56.482,354.681C57.409,328.033 56.204,293.515 47.516,265.37C38.802,237.138 24.07,219.293 0,217L0,191C24.069,188.707 38.802,170.862 47.516,142.63C56.204,114.485 57.409,79.967 56.481,53.32Z"
+                style="fill:#fff;fill-rule:nonzero;" />
+              <g transform="matrix(0.434781,0,0,0.244564,-13.9989,-65.9989)">
+                <g transform="matrix(1.72139,0,0,3.06025,-129718,-677765)">
+                  <path
+                    d="M75583.3,221835C75583.3,221835 75752,222003 75752,222003L75772,221983L75623.3,221835L75772,221686L75752,221666L75583.3,221835Z"
+                    style="fill:#7952b3;" />
+                </g>
+                <g transform="matrix(1.72139,0,0,3.06025,-129718,-677765)">
+                  <path
+                    d="M75712.3,221821C75704.5,221821 75698.2,221827 75698.2,221835C75698.2,221835 75698.2,221835 75698.2,221835C75698.2,221843 75704.5,221849 75712.3,221849C75734.3,221849 75774.1,221849 75774.1,221849C75808.9,221849 75837,221878 75837,221912C75837,221947 75808.9,221975 75774.1,221975L75597.4,221975L75597.4,221849L75616.5,221849L75616.5,221821L75597.4,221821L75597.4,221694L75774.1,221694C75808.9,221694 75837,221723 75837,221757C75837,221764 75836,221770 75834,221777C75831.9,221783 75834.7,221790 75840.7,221793C75840.7,221793 75840.7,221793 75840.7,221793C75844.4,221795 75848.8,221795 75852.7,221794C75856.7,221792 75859.7,221789 75861,221785C75863.8,221776 75865.3,221767 75865.3,221757C75865.3,221707 75824.5,221666 75774.1,221666C75774.1,221666 75653.6,221666 75597.4,221666L75597.4,221666L75597.4,221666C75581.8,221666 75569.2,221679 75569.2,221694L75569.2,221975C75569.2,221991 75581.8,222003 75597.4,222003L75774.1,222003C75824.5,222003 75865.3,221963 75865.3,221912C75865.3,221862 75824.5,221821 75774.1,221821C75774.1,221821 75734.3,221821 75712.3,221821Z"
+                    style="fill:#7952b3;" />
+                </g>
+              </g>
+              <defs>
+                <linearGradient id="_Linear1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse"
+                  gradientTransform="matrix(447.401,355.147,-355.147,447.401,76.079,10.798)">
+                  <stop offset="0" style="stop-color:rgb(144,19,254);stop-opacity:1" />
+                  <stop offset="1" style="stop-color:rgb(102,16,242);stop-opacity:1" />
+                </linearGradient>
+                <linearGradient id="_Linear2" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse"
+                  gradientTransform="matrix(258.353,3.49979e-11,-3.49979e-11,258.353,75583.3,221835)">
+                  <stop offset="0" style="stop-color:white;stop-opacity:1" />
+                  <stop offset="0.54" style="stop-color:rgb(212,212,214);stop-opacity:1" />
+                  <stop offset="1" style="stop-color:rgb(60,58,71);stop-opacity:1" />
+                </linearGradient>
+              </defs>
+            </svg></a>
+          <h5 class="h1 text-white">Bootstrap</h5>
+          <p class="small text-white mb-0">© 2022 Killian Blanchard.</p>
+        </div>
+        <div class="col-lg-2 col-md-6 nav align-items-center">
+          <h5 class="text-white">Liens</h5>
+          <ul class="nav align-items-center">
+            <li><a href="./about.html" class="nav-link text-white px-50">À propos</a></li>
+            <li><a href="./blog.html" class="nav-link text-white px-50">Blog</a></li>
+            <li><a href="./article-1.html" class="nav-link text-white px-50">Article 1</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FOOTER  FIN -->
+
+  <!-- Script Bootsrap + Icon -->
+
   <script src="./assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+  <script src="https://kit.fontawesome.com/14273d579a.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
